@@ -1,0 +1,98 @@
+body, html{
+    background-color: #fa9bee;
+    height: 100%;
+    overflow: hidden;
+}
+.UpperHeading{
+    display: flex;
+    justify-content: center;
+}
+.field{
+    background: #D3D3D3;
+    border: 3px solid #696969;
+    border-radius: 10px;
+    padding: 10px;
+    width: 430px;
+    height: 430px;
+    overflow: auto;
+    position: absolute;
+    left: 710px;
+    top: 200px;
+}
+.tile{
+    background: #BC8F8F;
+    border-radius: 20px;
+    padding: 35px;
+    margin: 10px;
+}
+.row1{
+    margin: 10px;
+    display: flex;
+    place-content: center;
+}
+.row2{
+    margin: 10px;
+    display: flex;
+    place-content: center;
+}
+.row3{
+    margin: 10px;
+    display: flex;
+    place-content: center;
+}
+.row4{
+    margin: 10px;
+    display: flex;
+    place-content: center;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 710px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+a{
+    text-decoration: none;
+    color: #64225d;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 20px;
+}
+.MenuList{
+    display: flex;
+    justify-content: center;
+    background-color: #da68c7;
+    margin: 15px;
+    position: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.Frame > list{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.MenuList ul {
+    background: #da68c7;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 20px;
+}
+
+.nav-item:hover{
+    background-color: #da68c7;
+}
+
+

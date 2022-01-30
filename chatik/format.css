@@ -1,0 +1,97 @@
+body, html{
+    background-color: #fa9bee;
+    height: 100%;
+    overflow: hidden;
+}
+.UpperHeading{
+    display: flex;
+    justify-content: center;
+}
+.perform{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    margin-left: calc((100% - 550px)/2);
+    margin-top: 50px;
+    background: #fffff5;
+    border: 2px solid #9E3C47;
+    border-radius: 4px;
+}
+input{
+    position: absolute;
+    width: 440px;
+    height: 25px;
+    margin-left: calc((100% - 550px)/2);
+    margin-top: 610px;
+    border-radius: 4px;
+    border: 2px solid #9E3C47;
+}
+.button{
+    position: absolute;
+    width: 100px;
+    height: 31px;
+    padding-bottom: 0;
+    margin-left: calc((100% - 550px)/2 + 455px);
+    margin-top: 610px;
+}
+.message{
+    position: relative;
+    display: flex;
+    background: #EBEBEB;
+    width: 520px;
+    min-height: 20px;
+    margin-left: 6px;
+    margin-top: 6px;
+    border: 1px solid #9E3C47;
+    word-break:break-all;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 4px;
+}
+#space{
+    width: 550px;
+    height: 0;
+}
+a{
+    text-decoration: none;
+    color: #64225d;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 20px;
+}
+.MenuList{
+    display: flex;
+    justify-content: center;
+    background-color: #da68c7;
+    margin: 15px;
+    position: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.Frame > list{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.MenuList ul {
+    background: #da68c7;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 20px;
+}
+
+.nav-item:hover{
+    background-color: #da68c7;
+}
