@@ -1,5 +1,5 @@
 # About
-Финальный проект по Сетевым и интернет технологиям в моем исполнении. Включает в себя все сделанные за 5ый семестр работы. Ознакомиться с ним можно по ссылке: https://dereviagin.gq/
+Финальный проект по Сетевым и интернет технологиям в моем исполнении. Включает в себя все сделанные за 5ый семестр работы. Ознакомиться с ним можно по ссылке: https://dantega.ml/
 # Installation
 1. Clone repository from GitHub `https://github.com/Bazooker1/Finalproject`
 2. Install dependencies from `package.json`
